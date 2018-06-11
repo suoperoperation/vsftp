@@ -1,5 +1,6 @@
 # vsftp
 vsftp  安装部署
+
 一、安装vsftpd及相关组件：
 
 yum -y install vsftpd* pam* db4*
@@ -67,5 +68,6 @@ pasv_max_port=10050
 
 
 *****注意新版本****
+
 在vsftpd.conf中添加
 allow_writeable_chroot=YES
